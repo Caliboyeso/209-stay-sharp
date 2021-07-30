@@ -4,11 +4,12 @@
 @media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio : 3) {
     /*  */
     .Gallery-container {
-        height: 520vh;
+        height: 535vh;
+        width: 500px;
     }
 
     .Gallery-img {
-        margin-left: -32px;
+        margin-left: -30px;
     }
 }
 

@@ -4,24 +4,26 @@
 @media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio : 3) {
     /*  */
     .Contact-container {
-        height: 175vh;
+        height: 185vh;
+        width: 500px;
     }
 
     /*  */
     #stay-sharp-map {
         height: 350px;
-        width: 390px;
-        margin-left: 12px;
+        width: 470px;
+        margin-left: 13px;
     }
 
     /*  */
     .Contact-info {
         display: block;
+        margin-left: 40px;
     }
 
     /*  */
     .Contact-cell {
-        
+        padding-top: 30px;
     }
 
     /*  */
@@ -32,7 +34,7 @@
     /*  */
     .Contact-address {
         margin-left: 150px;
-        padding-top: 45px;
+        padding-top: 60px;
         padding-bottom: 45px;
     }
 
@@ -44,6 +46,7 @@
     /*  */
     .Contact-hours {
         margin-left: 150px;
+        padding-top: 20px;
     }
 
     /*  */

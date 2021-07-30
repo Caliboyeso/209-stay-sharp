@@ -1,5 +1,15 @@
 /* MEDIA QUERY */
 
+/* 414px - 736px */
+@media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio : 3) {
+    /*  */
+    .Background-container {
+        width: 500px;
+    }
+}
+
+
+
 /* 1281px - 1920px */
 @media only screen and (min-width: 1281px) and (max-width: 1920px) {
     /*  */
