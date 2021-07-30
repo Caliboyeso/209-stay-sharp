@@ -1,0 +1,78 @@
+/*  */
+.Contact-container {
+    height: 115vh;
+    border-bottom: 15px solid silver;
+    background: radial-gradient(ellipse at bottom, #1B2735 0%, #263937 100%);
+}
+
+/*  */
+#Contact-title {
+    font-family: 'Allerta Stencil', sans-serif;
+    text-align: center;
+    font-size: 55px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+}
+
+/*  */
+#stay-sharp-map {
+    height: 400px;
+    width: 1000px;
+    margin-left: 135px;
+    padding-bottom: 25px;
+    
+}
+
+.Contact-info {
+    display: inline-flex;
+}
+
+.Contact-cell {
+    margin-left: 150px;
+}
+
+.Contact-address {
+    margin-left: 260px;
+}
+
+.Contact-hours {
+    margin-left: 205px;
+    width: 350px;
+}
+
+#cell-title, #address-title, #business-title {
+    color: rgb(59, 59, 226);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+#address {
+    width: 155px;
+}
+
+#cell-btn {
+    height: 50px;
+    color: white;
+    background-color: grey;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 25%;
+}
+
+#address-btn {
+    height: 50px;
+    color: white;
+    background-color: grey;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 25%;
+}
+
+#address-btn:hover {
+    color: rgb(59, 59, 226);
+    background-color: white;
+}
+
+#cell, #address, #hours {
+    font-weight: bold;
+    color: white;
+}

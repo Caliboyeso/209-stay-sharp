@@ -1,0 +1,53 @@
+/* .Background-container */
+.Background-container {
+    height: 105vh;
+    background: radial-gradient(ellipse at bottom, #273248 0%, #367fd3 100%);
+    margin-top: -34px;
+    text-align: center;
+}
+
+/* #Background-title */
+#Background-title {
+    padding-top: 110px;
+    color: white;
+    font-size: 55px;
+    font-family: 'Allerta Stencil', sans-serif;
+}
+
+/* #Background-message */
+#Background-message {
+    font-family: fantasy;
+    color: silver;
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+
+#Background-message2 {
+    font-family: fantasy;
+    color: silver;
+}
+
+/* #Background-button */
+#Background-button {
+    margin-top: 85px;
+    height: 150px;
+}
+
+/*  */
+#Background-btn-text {
+    height: 50px;
+    width: 280px;
+    font-size: 30px;
+    border-radius: 15%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border: 3px solid black;
+}
+
+/*  */
+#Background-btn-text:hover {
+    color: black;
+    background-color: white;
+}

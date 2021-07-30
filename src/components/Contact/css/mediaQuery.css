@@ -1,0 +1,106 @@
+/* MEDIA QUERY */
+
+/* 414px - 736px */
+@media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio : 3) {
+    /*  */
+    .Contact-container {
+        height: 175vh;
+    }
+
+    /*  */
+    #stay-sharp-map {
+        height: 350px;
+        width: 390px;
+        margin-left: 12px;
+    }
+
+    /*  */
+    .Contact-info {
+        display: block;
+    }
+
+    /*  */
+    .Contact-cell {
+        
+    }
+
+    /*  */
+    #cell-title {
+        font-size: 40px;
+    }
+
+    /*  */
+    .Contact-address {
+        margin-left: 150px;
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+
+    /*  */
+    #address-title {
+        font-size: 40px;
+    }
+
+    /*  */
+    .Contact-hours {
+        margin-left: 150px;
+    }
+
+    /*  */
+    #business-title {
+        font-size: 40px;
+        width: 50px;
+    }
+}
+
+
+/* 1281px - 1920px */
+@media only screen and (min-width: 1281px) and (max-width: 1920px) {
+    /*  */
+    .Contact-container {
+        height: 120vh;
+    }
+
+    /*  */
+    #Contact-title {
+        font-size: 75px;
+    }
+
+    /*  */
+    #Contact-row {
+        margin-left: 325px;
+    }
+
+    /*  */
+    #stay-sharp-map {
+        height: 675px;
+        width: 1400px;
+        margin-left: -65px;
+    }
+
+    /*  */
+    #cell-title, #address-title, #business-title {
+        font-size: 45px;
+    }
+
+    /*  */
+    .Contact-cell {
+        margin-left: -30px;
+    }
+
+    /*  */
+    .Contact-address {
+        margin-left: 370px;
+    }
+
+    
+    /*  */
+    .Contact-hours {
+        margin-left: 330px;
+    }
+
+    /*  */
+    #cell, #address, #hours {
+        font-size: 20px;
+    }
+}

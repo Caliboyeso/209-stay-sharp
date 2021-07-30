@@ -1,0 +1,24 @@
+#Navbar {
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    height: 80px;
+}
+
+.Nav-links {
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Allerta Stencil', sans-serif;
+}
+
+#Nav-gallery, #Nav-contact {
+    margin-left: 15px;
+}
+
+#stay-sharp-img {
+    height: 65px;
+    margin-right: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}

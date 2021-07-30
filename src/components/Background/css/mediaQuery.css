@@ -1,0 +1,20 @@
+/* MEDIA QUERY */
+
+/* 1281px - 1920px */
+@media only screen and (min-width: 1281px) and (max-width: 1920px) {
+    /*  */
+    #Background-title {
+        font-size: 75px;
+    }
+
+    /*  */
+    #Background-message, #Background-message2 {
+        font-size: 40px;
+    }
+
+    /*  */
+    #Background-btn-text {
+        width: 300px;
+        height: 60px;
+    }
+}

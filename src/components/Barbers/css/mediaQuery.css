@@ -1,0 +1,72 @@
+/* MEDIA QUERY */
+
+/* 414px - 736px */
+@media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio : 3) {
+    /*  */
+    .Barbers-container {
+        height: 215vh;
+    }
+
+    /*  */
+    .Barbers-row1 {
+        display: block;
+    }
+
+    #Card {
+        margin-bottom: 50px;
+        margin-left: 37px;
+    }
+}
+
+
+/* 1281px - 1920px */
+@media only screen and (min-width: 1281px) and (max-width: 1920px) {
+    /*  */
+    .Barbers-container {
+        height: 93vh;
+    }
+
+    /*  */
+    #Barbers-title {
+        font-size: 75px;
+    }
+
+    /*  */
+    #Barbers-row1 {
+        padding-top: 40px;
+    }
+
+    /*  */
+    #Card {
+        width: 400px;
+        margin-left: 175px;
+    }
+
+    /*  */
+    .Barbers-img {
+        height: 250px;
+    }
+
+    /*  */
+    #Card-body {
+        height: 13vh;
+        border-top: 3px solid black;
+    }
+
+    /*  */
+    #Card-title {
+        font-size: 35px;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    /*  */
+    .Card-btns {
+        padding-top: 11px;
+    }
+
+    /*  */
+    #Booksy-btn, #IG-btn {
+        font-size: 21px;
+    }
+}

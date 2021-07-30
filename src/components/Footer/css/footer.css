@@ -1,0 +1,13 @@
+/*  */
+.Footer-container {
+    height: 15vh;
+    background-color: black;
+    color: white;
+}
+
+/*  */
+#Footer-title {
+    font-family: 'Allerta Stencil', sans-serif;
+    text-align: center;
+    padding-top: 35px;
+}
