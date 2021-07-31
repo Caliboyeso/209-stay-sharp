@@ -14,7 +14,7 @@ function NavBar() {
   // 
   const NavBarbers = () => {
     if (window.matchMedia("(min-width: 1920px)").matches) {
-        window.scrollTo({top: 905, behavior: "smooth"});
+        window.scrollTo({top: 990, behavior: "smooth"});
     } else if (window.matchMedia("(min-width: 1280px)").matches) {
         window.scrollTo({top: 696, behavior: "smooth"});
     } else {
@@ -25,7 +25,7 @@ function NavBar() {
 // 
 const NavGallery = () => {
   if (window.matchMedia("(min-width: 1920px)").matches) {
-      window.scrollTo({top: 1800, behavior: "smooth"});
+      window.scrollTo({top: 1885, behavior: "smooth"});
   } else if (window.matchMedia("(min-width: 1280px)").matches) {
       window.scrollTo({top: 1376, behavior: "smooth"});
   } else {
@@ -36,7 +36,7 @@ const NavGallery = () => {
 // 
 const NavContact = () => {
   if (window.matchMedia("(min-width: 1920px)").matches) {
-      window.scrollTo({top: 2925, behavior: "smooth"});
+      window.scrollTo({top: 3540, behavior: "smooth"});
   } else if (window.matchMedia("(min-width: 1280px)").matches) {
       window.scrollTo({top: 2801, behavior: "smooth"});
   } else {
