@@ -4,7 +4,18 @@
 @media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio : 3) {
     /*  */
     .Background-container {
-        width: 539px;
+        width: 540px;
+        height: 135vh;
+    }
+
+    /*  */
+    #Background-title {
+        padding-bottom: 30px;
+    }
+
+    /*  */
+    #Background-message, #Background-message2 {
+        font-family:Georgia, 'Times New Roman', Times, serif;
     }
 }
 

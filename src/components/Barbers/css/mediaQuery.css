@@ -4,8 +4,8 @@
 @media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio : 3) {
     /*  */
     .Barbers-container {
-        height: 185vh;
-        width: 539px;
+        height: 190vh;
+        width: 540px;
     }
 
     /*  */
@@ -15,7 +15,7 @@
 
     #Card {
         margin-bottom: 50px;
-        margin-left: 79px;
+        margin-left: 102px;
     }
 
     /*  */

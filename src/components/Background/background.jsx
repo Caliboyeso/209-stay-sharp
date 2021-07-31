@@ -10,13 +10,12 @@ function Background() {
         } else if (window.matchMedia("(min-width: 1280px)").matches) {
             window.scrollTo({top: 696, behavior: "smooth"});
         } else {
-            window.scrollTo({top: 740, behavior: "smooth"});
+            window.scrollTo({top: 960, behavior: "smooth"});
         }
     }
 
     return (
         <div className="Background-container">
-            <style>@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');</style>
             <h1 id="Background-title">209  Stay Sharp Barbershop</h1>
             <h3 id="Background-message">Barber Shop located in Manteca, CA</h3>
             <h3 id="Background-message2">Opens at 9am</h3>

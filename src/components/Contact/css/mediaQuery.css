@@ -4,14 +4,14 @@
 @media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio : 3) {
     /*  */
     .Contact-container {
-        height: 190vh;
+        height: 195vh;
         width: 539px;
     }
 
     /*  */
     #stay-sharp-map {
         height: 350px;
-        width: 470px;
+        width: 515px;
         margin-left: 13px;
     }
 
@@ -29,6 +29,11 @@
     /*  */
     #cell-title {
         font-size: 40px;
+    }
+
+    /*  */
+    #cell-btn {
+        margin-left: 22px;
     }
 
     /*  */
