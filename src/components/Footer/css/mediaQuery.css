@@ -3,7 +3,7 @@
 /* 414px - 736px */
 @media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio : 3) {
     .Footer-container {
-        width: 539px;
+        width: 540px;
     }
 }
 
