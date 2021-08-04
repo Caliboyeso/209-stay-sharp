@@ -25,7 +25,7 @@ function Barbers() {
             <Card.Title id="Card-title">Abdiel</Card.Title>
             <div className="Card-btns">
                 <Button id="Booksy-btn" target="_blank" href="https://booksy.com/en-us/162736_abdiel-chiquito_barber-shop_134738_manteca#ba_s=sr_1" variant="warning">Book Appointment</Button>
-                <Button id="IG-btn" target="_blank" href="https://www.instagram.com/209staysharpbarbershop/" variant="secondary">Instagram</Button>
+                <Button id="IG-btn" target="_blank" href="https://www.instagram.com/209staysharpbarbershop/" variant="success">Instagram</Button>
             </div>
           </Card.Body>
         </Card>
@@ -43,7 +43,7 @@ function Barbers() {
             <Card.Title id="Card-title">Mariah</Card.Title>
             <div className="Card-btns">
                 <Button id="Booksy-btn" target="_blank" href="https://booksy.com/en-us/388450_mariah_barber-shop_134738_manteca#ba_s=sr_1" variant="warning">Book Appointment</Button>
-                <Button id="IG-btn" target="_blank" href="https://www.instagram.com/razoriah/" variant="secondary">Instagram</Button>
+                <Button id="IG-btn" target="_blank" href="https://www.instagram.com/razoriah/" variant="success">Instagram</Button>
             </div>
           </Card.Body>
         </Card>
@@ -61,7 +61,7 @@ function Barbers() {
             <Card.Title id="Card-title">Israel</Card.Title>
             <div className="Card-btns">
                 <Button id="Booksy-btn" target="_blank" href="https://booksy.com/en-us/511111_israel-l_barber-shop_134738_manteca#ba_s=sr_1" variant="warning">Book Appointment</Button>
-                <Button id="IG-btn" target="_blank" href="https://www.instagram.com/eskeletoblendz/" variant="secondary">Instagram</Button>
+                <Button id="IG-btn" target="_blank" href="https://www.instagram.com/eskeletoblendz/" variant="success">Instagram</Button>
             </div>
           </Card.Body>
         </Card>

@@ -1,7 +1,8 @@
 /* MEDIA QUERY */
 
+/* iPhone 8 Plus */
 /* 414px - 736px */
-@media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio : 3) {
+@media only screen and (device-width: 414px) and (device-height: 736px) {
     /*  */
     .Contact-container {
         height: 220vh;
@@ -67,6 +68,102 @@
 }
 
 
+
+/* iPhone 11 Pro & iPhone 12 Mini */
+/* 375px - 812px */
+@media only screen and (device-width: 375px) and (device-height: 812px) {
+    /*  */
+    .Contact-container {
+        height: 170vh;
+        width: 582px;
+    }
+
+    /*  */
+    #stay-sharp-map {
+        width: 558px;
+        margin-left: 10px;
+        margin-bottom: 20px;
+    }
+
+    /*  */
+    .Contact-info {
+        display: block;
+        margin-left: -20px;
+    }
+
+    /*  */
+    .Contact-cell {
+        margin-left: 250px;
+        margin-bottom: 55px;
+    }
+
+    /*  */
+    .Contact-address {
+        margin-left: 250px;
+        margin-bottom: 55px;
+    }
+
+    /*  */
+    .Contact-hours {
+        margin-left: 250px;
+    }
+
+}
+
+
+
+/* iPhone 12 & iPhone 12 Pro */
+/* 390px - 844px */
+@media only screen and (min-width: 390px) and (max-width: 844px) {
+    /*  */
+    .Contact-container {
+        height: 155vh;
+        width: 550.5px;
+    }
+
+    /*  */
+    #stay-sharp-map {
+        width: 480px;
+        margin-left: 10px;
+    }
+
+    /*  */
+    .Contact-info {
+        display: block;
+        margin-left: 50px;
+    }
+
+    /*  */
+    .Contact-cell {
+        padding-bottom: 40px;
+    }
+
+    /*  */
+    .Contact-address {
+        margin-left: 150px;
+        padding-bottom: 40px;
+    }
+
+    /*  */
+    .Contact-hours {
+        margin-left: 150px;
+    }
+
+}
+
+
+
+/* iPhone 11 & iPhone 11 Pro Max */
+/* 414px - 896px */
+@media only screen and (min-width: 414px) and (max-width: 896px) {
+    /*  */
+    
+
+}
+
+
+
+/* Desktop */
 /* 1281px - 1920px */
 @media only screen and (min-width: 1281px) and (max-width: 1920px) {
     /*  */

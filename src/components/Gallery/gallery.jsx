@@ -1,6 +1,7 @@
 import React from "react";
 import "./css/gallery.css";
 import "./css/mediaQuery.css";
+import Carousel from "react-bootstrap/Carousel";
 import Haircut1 from "../img/haircut1.png";
 import Haircut2 from "../img/haircut2.png";
 import Haircut3 from "../img/haircut3.png";
@@ -13,31 +14,106 @@ import Haircut9 from "../img/haircut9.png";
 
 function Gallery() {
 
-    return (
-        <div className="Gallery-container">
-            <style>@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');</style>
-            <h1 id="Gallery-title">Gallery</h1>
+  return (
+    <div className="Gallery-container">
+      <style>@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');</style>
+      <h1 id="Gallery-title">Gallery</h1>
 
-            <div className="Gallery-row1">
-                <img id="haircut1" className="Gallery-img" src={Haircut1} alt="" />
-                <img id="haircut2" className="Gallery-img" src={Haircut2} alt="" />
-                <img id="haircut3" className="Gallery-img" src={Haircut3} alt="" />
-            </div>
+      <Carousel fade id="Carousel">
+        {/* Haircut #1 */}
+        <Carousel.Item>
+          <img
+            id="Gallery-img"
+            className="d-block w-100"
+            src={Haircut1}
+            alt="First slide"
+          />
+        </Carousel.Item>
 
-            <div className="Gallery-row2">
-                <img id="haircut4" className="Gallery-img" src={Haircut4} alt="" />
-                <img id="haircut5" className="Gallery-img" src={Haircut5} alt="" />
-                <img id="haircut6" className="Gallery-img" src={Haircut6} alt="" />
-            </div>
+        {/* Haircut #2 */}
+        <Carousel.Item>
+          <img
+            id="Gallery-img"
+            className="d-block w-100"
+            src={Haircut2}
+            alt="Second slide"
+          />
+        </Carousel.Item>
 
-            <div className="Gallery-row3">
-                <img id="haircut7" className="Gallery-img" src={Haircut7} alt="" />
-                <img id="haircut8" className="Gallery-img" src={Haircut8} alt="" />
-                <img id="haircut9" className="Gallery-img" src={Haircut9} alt="" />
-            </div>
+        {/* Haircut #3 */}
+        <Carousel.Item>
+          <img
+            id="Gallery-img"
+            className="d-block w-100"
+            src={Haircut3}
+            alt="Third slide"
+          />
+        </Carousel.Item>
 
-        </div>
-    );
+        {/* Haircut #4 */}
+        <Carousel.Item>
+          <img
+            id="Gallery-img"
+            className="d-block w-100"
+            src={Haircut4}
+            alt="Third slide"
+          />
+        </Carousel.Item>
+
+        {/* Haircut #5 */}
+        <Carousel.Item>
+          <img
+            id="Gallery-img"
+            className="d-block w-100"
+            src={Haircut5}
+            alt="Third slide"
+          />
+        </Carousel.Item>
+
+        {/* Haircut #6 */}
+        <Carousel.Item>
+          <img
+            id="Gallery-img"
+            className="d-block w-100"
+            src={Haircut6}
+            alt="Third slide"
+          />
+        </Carousel.Item>
+
+        {/* Haircut #7 */}
+        <Carousel.Item>
+          <img
+            id="Gallery-img"
+            className="d-block w-100"
+            src={Haircut7}
+            alt="Third slide"
+          />
+        </Carousel.Item>
+
+        {/* Haircut #8 */}
+        <Carousel.Item>
+          <img
+            id="Gallery-img"
+            className="d-block w-100"
+            src={Haircut8}
+            alt="Third slide"
+          />
+        </Carousel.Item>
+
+        {/* Haircut #9 */}
+        <Carousel.Item>
+          <img
+            id="Gallery-img"
+            className="d-block w-100"
+            src={Haircut9}
+            alt="Third slide"
+          />
+        </Carousel.Item>
+
+      </Carousel>
+    </div>
+  );
 };
 
+// 
 export default Gallery;

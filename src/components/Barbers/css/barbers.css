@@ -1,6 +1,6 @@
 /* .Barbers-container */
 .Barbers-container {
-    height: 100vh;
+    height: 91vh;
     background: radial-gradient(ellipse at bottom, #1B2735 0%, #263937 100%);
     border-bottom: 15px solid black;
 }
@@ -12,18 +12,13 @@
     font-size: 55px;
     padding-top: 40px;
     text-align: center;
-    border-top: 10px solid black;
+    border-top: 12px solid black;
     padding-bottom: 40px;
 }
 
 /*  */
-.Barbers-row1, .Barbers-row2 {
-    display: inline-flex;
-}
-
-/*  */
 .Barbers-row1 {
-    padding-bottom: 70px;
+    display: inline-flex;
 }
 
 /*  */
@@ -33,11 +28,21 @@
 
 #Card {
     width: 340px;
+    height: 335px;
+    background-color: silver;
 }
 
 /*  */
 .Barbers-img {
     height: 205px;
+    border-bottom: 5px solid black;
+}
+
+/*  */
+#Card-title {
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 20px;
 }
 
 /*  */

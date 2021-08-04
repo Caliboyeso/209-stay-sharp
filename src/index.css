@@ -3,11 +3,3 @@
   margin: 0;
   padding: 0;
 }
-
-
-/* 414px - 736px */
-@media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio : 3) {
-  body {
-    width: 100%;
-  }
-}

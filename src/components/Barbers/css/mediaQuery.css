@@ -1,5 +1,6 @@
 /* MEDIA QUERY */
 
+/* iPhone 8 Plus */
 /* 414px - 736px */
 @media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio : 3) {
     /*  */
@@ -30,6 +31,111 @@
         font-size: 25px;
     }
 }
+
+
+
+/* iPhone 11 Pro & iPhone 12 Mini */
+/* 375px - 812px */
+@media only screen and (device-width: 375px) and (device-height: 812px) {
+    /*  */
+    .Barbers-container {
+        height: 170vh;
+        width: 582px;
+    }
+
+    /*  */
+    .Barbers-row1 {
+        display: block;
+    }
+
+    /*  */
+    #Card {
+        margin-left: 115px;
+        margin-bottom: 50px;
+    }
+
+    /*  */
+    #Card-body {
+        border-top: 3px solid black;
+        background-color: silver;
+    }
+
+    /*  */
+    #Card-title {
+        text-align: center;
+        font-weight: bold;
+        font-size: 25px;
+    }
+
+}
+
+
+
+/* iPhone 12 & iPhone 12 Pro */
+/* 390px - 844px */
+@media only screen and (device-width: 390px) and (device-height: 844px) {
+    /*  */
+    .Barbers-container {
+        height: 175vh;
+        width: 550.5px;
+    }
+
+    /*  */
+    .Barbers-row1 {
+        display: block;
+    }
+
+    /*  */
+    #Card {
+        margin-bottom: 70px;
+        margin-left: 85px;
+    }
+
+}
+
+
+
+/* iPhone 11 & iPhone 11 Pro Max */
+/* 414px - 896px */
+@media only screen and (device-width: 414px) and (device-height: 896px) {
+    /*  */
+    .Barbers-container {
+        height: 140vh;
+        width: 551px;
+    }
+
+    /*  */
+    .Barbers-row1 {
+        display: block;
+    }
+
+}
+
+
+
+/* iPhone 12 Pro Max */
+/* 428px - 926px */
+@media only screen and (min-width: 428px) and (max-width: 926px) {
+    /*  */
+    .Barbers-container {
+        height: 150vh;
+        width: 551px;
+    }
+
+    /*  */
+    .Barbers-row1 {
+        display: block;
+    }
+
+    /*  */
+    #Card {
+        margin-bottom: 40px;
+        margin-left: 110px;
+    }
+
+}
+
+
 
 
 /* 1281px - 1920px */
