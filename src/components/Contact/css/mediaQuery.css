@@ -163,6 +163,60 @@
 
 
 
+/* iPhone 12 Pro Max */
+/* 428px - 926px */
+@media only screen and (min-width: 428px) and (max-width: 926px) {
+    /*  */
+    .Contact-container {
+        height: 180vh;
+    }
+
+    /*  */
+    #stay-sharp-map {
+        width: 530px;
+        margin-bottom: 30px;
+    }
+
+    /*  */
+    .Contact-info {
+        margin-left: 10px;
+    }
+
+    /*  */
+    #cell-title {
+        font-size: 50px;
+    }
+
+    /*  */
+    #cell {
+        font-size: 25px;
+    }
+
+    /*  */
+    #address-title {
+        font-size: 50px;
+    }
+
+    /*  */
+    #address {
+        font-size: 25px;
+        width: 220px;
+    }
+
+    /*  */
+    #business-title {
+        font-size: 50px;
+    }
+
+    /*  */
+    #hours {
+        font-size: 25px;
+    }
+
+}
+
+
+
 /* Desktop */
 /* 1281px - 1920px */
 @media only screen and (min-width: 1281px) and (max-width: 1920px) {

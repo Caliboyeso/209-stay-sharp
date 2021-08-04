@@ -59,6 +59,18 @@
 
 
 
+/* iPhone 12 Pro Max */
+/* 428px - 926px */
+@media only screen and (min-width: 428px) and (max-width: 926px) {
+    /*  */
+    .Background-container {
+        height: 125vh;
+    }
+
+}
+
+
+
 
 /* Desktop */
 /* 1281px - 1920px */
