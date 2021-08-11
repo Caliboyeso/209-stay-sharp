@@ -2,26 +2,18 @@
 
 /* iPhone 8 Plus */
 /* 414px - 736px */
-@media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio : 3) {
+@media only screen and (device-width: 414px) and (device-height: 736px) {
     /*  */
-    .Gallery-container {
-        height: 131vh;
-        width: 540px;
-    }
-
-    /*  */
-    #Carousel {
-        width: 530px;
-        margin-left: 5px;
-        padding-left: -10px;
-        padding-right: -10px;
-        margin-top: 40px;
+    #Gallery-container {
+        height: 134vh;
     }
 
     /*  */
     #Gallery-img {
+        margin-top: 25px;
         height: 600px;
     }
+
 }
 
 
@@ -31,22 +23,14 @@
 @media only screen and (device-width: 375px) and (device-height: 812px) {
     /*  */
     .Gallery-container {
-        height: 155vh;
-        width: 583px;
+        width: 554px;
     }
 
     /*  */
     #Carousel {
-        width: 572px;
-        margin-left: 5px;
-        margin-top: 40px;
+        width: 515px;
+        margin-left: 20px;
     }
-
-    /*  */
-    #Gallery-img {
-        height: 600px;
-    }
-
 }
 
 
@@ -62,8 +46,8 @@
 
     /*  */
     #Carousel {
-        width: 490px;
-        margin-left: 5px;
+        width: 520px;
+        margin-left: 15px;
         margin-top: 40px;
         
     }
@@ -78,6 +62,12 @@
     /*  */
     .Gallery-container {
         width: 551px;
+        height: 130vh;
+    }
+
+    /*  */
+    #Gallery-title {
+        
     }
 
     /*  */
@@ -95,7 +85,13 @@
 @media only screen and (min-width: 428px) and (max-width: 926px) {
     /*  */
     .Gallery-container {
-        height: 125vh;
+        height: 127vh;
+    }
+
+    /*  */
+    #Gallery-title {
+        padding-top: 25px;
+        padding-bottom: 55px;
     }
 
 }

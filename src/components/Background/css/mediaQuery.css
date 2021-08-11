@@ -2,21 +2,10 @@
 
 /* iPhone 8 Plus */
 /* 414px - 736px */
-@media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio : 3) {
+@media only screen and (device-width: 414px) and (device-height: 736px) {
     /*  */
-    .Background-container {
-        width: 540px;
-        height: 135vh;
-    }
-
-    /*  */
-    #Background-title {
-        padding-bottom: 30px;
-    }
-
-    /*  */
-    #Background-message, #Background-message2 {
-        font-family:Georgia, 'Times New Roman', Times, serif;
+    #Background-container {
+        height: 138vh;
     }
 }
 
@@ -27,8 +16,7 @@
 @media only screen and (device-width: 375px) and (device-height: 812px) {
     /*  */
     .Background-container {
-        width: 583px;
-        height: 159vh;
+        width: 554px;
     }
 
 }
@@ -53,6 +41,7 @@
     /*  */
     .Background-container {
         width: 551px;
+        height: 135vh;
     }
 
 }
@@ -64,7 +53,7 @@
 @media only screen and (min-width: 428px) and (max-width: 926px) {
     /*  */
     .Background-container {
-        height: 125vh;
+        height: 130vh;
     }
 
 }

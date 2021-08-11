@@ -4,66 +4,13 @@
 /* 414px - 736px */
 @media only screen and (device-width: 414px) and (device-height: 736px) {
     /*  */
-    .Contact-container {
-        height: 220vh;
-        width: 540px;
+    #Contact-container {
+        height: 180vh;
     }
 
     /*  */
-    #stay-sharp-map {
-        height: 350px;
-        width: 515px;
-        margin-left: 13px;
-    }
-
-    /*  */
-    .Contact-info {
-        display: block;
-        margin-left: 40px;
-    }
-
-    /*  */
-    .Contact-cell {
-        padding-top: 30px;
-    }
-
-    /*  */
-    #cell-title {
-        font-size: 45px;
-    }
-
-    /*  */
-    #cell-btn {
-        margin-left: 30px;
-    }
-
-    /*  */
-    .Contact-address {
-        margin-left: 150px;
-        padding-top: 60px;
-        padding-bottom: 45px;
-    }
-
-    /*  */
-    #address-title {
-        font-size: 45px;
-    }
-
-    /*  */
-    .Contact-hours {
-        margin-left: 150px;
-        padding-top: 20px;
-    }
-
-    /*  */
-    #business-title {
-        font-size: 45px;
-        width: 50px;
-    }
-
-    /*  */
-    #cell, #address, #hours {
-        font-size: 20px;
+    #Contact-map-link {
+        margin-left: 25px;
     }
 }
 
@@ -74,38 +21,36 @@
 @media only screen and (device-width: 375px) and (device-height: 812px) {
     /*  */
     .Contact-container {
-        height: 170vh;
-        width: 583px;
+        height: 165vh;
+        width: 554px;
     }
 
     /*  */
     #stay-sharp-map {
-        width: 558px;
-        margin-left: 10px;
-        margin-bottom: 20px;
+        width: 525px;
+        margin-left: 15px;
     }
 
     /*  */
     .Contact-info {
         display: block;
-        margin-left: -20px;
     }
 
     /*  */
     .Contact-cell {
-        margin-left: 250px;
-        margin-bottom: 55px;
+        margin-left: 200px;
+        margin-bottom: 50px;
     }
 
     /*  */
     .Contact-address {
-        margin-left: 250px;
-        margin-bottom: 55px;
+        margin-left: 200px;
+        margin-bottom: 50px;
     }
 
     /*  */
     .Contact-hours {
-        margin-left: 250px;
+        margin-left: 200px;
     }
 
 }
@@ -123,8 +68,8 @@
 
     /*  */
     #stay-sharp-map {
-        width: 480px;
-        margin-left: 10px;
+        width: 520px;
+        margin-left: 15px;
     }
 
     /*  */

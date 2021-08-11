@@ -15,7 +15,7 @@ import Haircut9 from "../img/haircut9.png";
 function Gallery() {
 
   return (
-    <div className="Gallery-container">
+    <div className="Gallery-container" id="Gallery-container">
       <style>@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');</style>
       <h1 id="Gallery-title">Gallery</h1>
 

@@ -3,9 +3,7 @@
 /* iPhone 8 Plus */
 /* 414px - 736px */
 @media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio : 3) {
-    .Footer-container {
-        width: 540px;
-    }
+    
 }
 
 
@@ -15,7 +13,7 @@
 @media only screen and (device-width: 375px) and (device-height: 812px) {
     /*  */
     .Footer-container {
-        width: 583px;
+        width: 554px;
     }
 
 }
