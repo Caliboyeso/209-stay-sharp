@@ -2,21 +2,14 @@
 
 /* iPhone 8 Plus */
 /* 414px - 736px */
-@media only screen and (device-width: 414px) and (device-height: 736px) {
+@media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio : 3) {
     /*  */
     #Contact-container {
-        height: 180vh;
-        width: 415px;
+        height: 185vh;
+        width: 550px;
     }
 
-    /*  */
-    #Contact-map-link {
-        margin-left: -5px;
-    }
-
-    #stay-sharp-map {
-        padding-right: 125px;
-    }
+    
 }
 
 

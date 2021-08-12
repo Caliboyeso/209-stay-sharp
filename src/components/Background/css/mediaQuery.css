@@ -2,12 +2,13 @@
 
 /* iPhone 8 Plus */
 /* 414px - 736px */
-@media only screen and (device-width: 414px) and (device-height: 736px) {
+@media only screen and (min-width: 414px) and (min-height: 736px) {
     /*  */
     #Background-container {
-        height: 138vh;
-        width: 415px;
+        width: 100%;
+        width: 550px;
     }
+
 }
 
 

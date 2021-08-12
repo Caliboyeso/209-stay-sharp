@@ -3,15 +3,3 @@
   margin: 0;
   padding: 0;
 }
-
-
-
-/* iPhone 8 Plus */
-/* 414px - 736px */
-@media only screen and (device-width: 414px) and (device-height: 736px) {
-  /*  */
-  #root {
-    width: 100px;
-  }
-
-}
