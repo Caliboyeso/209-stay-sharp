@@ -6,12 +6,12 @@
     /*  */
     #Gallery-container {
         height: 134vh;
+        width: 415px;
     }
 
     /*  */
     #Gallery-img {
-        margin-top: 25px;
-        height: 600px;
+        height: 550px;
     }
 
 }

@@ -19,7 +19,7 @@ function Gallery() {
       <style>@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');</style>
       <h1 id="Gallery-title">Gallery</h1>
 
-      <Carousel fade id="Carousel">
+      <Carousel fade id="Carousel" className="Carousel" style={{width: "405px"}}>
         {/* Haircut #1 */}
         <Carousel.Item>
           <img
