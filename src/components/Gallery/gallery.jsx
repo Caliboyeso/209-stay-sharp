@@ -20,7 +20,7 @@ function Gallery() {
       <style>@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');</style>
       <h1 id="Gallery-title">Gallery</h1>
 
-      <Carousel fade infiniteLoop autoPlay showArrows="false" id="Carousel" className="Carousel">
+      <Carousel fade id="Carousel" className="Carousel">
         {/* Haircut #1 */}
         <Carousel.Item id="Carousel-item">
           <img

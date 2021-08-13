@@ -2,12 +2,17 @@
 @media only screen and (min-width: 414px) and (max-width: 736px) {
     /*  */
     .Gallery-container {
-
+        height: 98.5vh;
     }
 
+    /*  */
     #Carousel {
         width: 400px;
         margin-left: 5px;
+    }
+
+    .sr-only {
+        display: none;
     }
 
 }

@@ -2,7 +2,7 @@
 @media only screen and (min-width: 414px) and (max-width: 736px) {
     /*  */
     .Barbers-container {
-        height: 175vh;
+        height: 190vh;
     }
 
     /*  */
@@ -13,7 +13,7 @@
 
     /*  */
     #Card {
-        margin-bottom: 25px;
+        margin-bottom: 50px;
     }
 
 }
