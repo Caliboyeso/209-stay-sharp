@@ -2,9 +2,9 @@
 
 /* iPhone 8 Plus */
 /* 414px - 736px */
-@media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio : 3) {
+@media only screen and (device-width: 375px) and (device-height: 667px) {
     #Footer-container {
-        width: 550px;
+        width: 555px;
     }
 }
 
