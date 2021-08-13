@@ -7,7 +7,7 @@ import StaySharp from "../img/stay-sharp209.jpg";
 
 function Barbers() {
   return (
-    <div className="Barbers-container">
+    <div className="Barbers-container" id="Barbers-container">
       <style>@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');</style>
       <h1 id="Barbers-title">The Barbers</h1>
 

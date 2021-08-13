@@ -36,7 +36,7 @@ const NavGallery = () => {
 // 
 const NavContact = () => {
   if (window.matchMedia("(min-width: 1920px)").matches) {
-      window.scrollTo({top: 2800, behavior: "smooth"});
+      window.scrollTo({top: 2760, behavior: "smooth"});
   } else if (window.matchMedia("(min-width: 1280px)").matches) {
       window.scrollTo({top: 1975, behavior: "smooth"});
   } else {
