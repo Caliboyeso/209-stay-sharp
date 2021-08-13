@@ -1,7 +1,7 @@
 /* .Background-container */
 .Background-container {
     height: 105vh;
-    background: radial-gradient(ellipse at bottom, #273248 0%, #367fd3 100%);
+    background: radial-gradient(ellipse at bottom, #020202 0%, #d3364b 100%);
     margin-top: -34px;
     text-align: center;
 }
@@ -16,14 +16,14 @@
 
 /* #Background-message */
 #Background-message {
-    font-family: fantasy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: silver;
     padding-top: 60px;
     padding-bottom: 10px;
 }
 
 #Background-message2 {
-    font-family: fantasy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: silver;
 }
 

@@ -3,14 +3,15 @@
     height: 95vh;
     border-bottom: 15px solid black;
     text-align: center;
-    background: radial-gradient(ellipse at bottom, #273248 0%, #367fd3 100%);
+    background: radial-gradient(ellipse at bottom, #020202 0%, #d3364b 100%);
 }
 
 /*  */
 #Carousel {
-    margin-left: 200px;
+    margin-left: 220px;
     margin-right: 200px;
     z-index: 5;
+    width: 850px;
 }
 
 /*  */

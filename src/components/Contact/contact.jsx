@@ -1,6 +1,7 @@
 import React from "react";
 import "./css/contact.css";
 import "./css/mediaQuery.css";
+import "./css/stars.scss";
 import StaySharpMap from "../img/stay-sharp-maps.jpeg";
 
 function Contact() {
@@ -11,6 +12,9 @@ function Contact() {
 
     return (
         <div className="Contact-container" id="Contact-container">
+            <div id="stars"></div>
+            <div id="stars2"></div>
+            <div id="stars3"></div>
             <style>@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');</style>
             <h1 id="Contact-title">Contact</h1>
             <div id="Contact-row">

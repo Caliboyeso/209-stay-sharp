@@ -1,174 +1,19 @@
-/* MEDIA QUERY */
-
 /* iPhone 8 Plus */
-/* 414px - 736px */
-@media only screen and (device-width: 414px) and (device-height: 736px) {
-    /*  */
-    .Barbers-container {
-        height: 200vh;
-        width: 414px;
-    }
-
-    /*  */
-    #Barbers-row1 {
-        display: block;
-        margin-left: -25px;
-    }
-
-    /*  */
-    #Card {
-        margin-bottom: 50px;
-    }
-
-}
-
-
-
-/* iPhone 11 Pro & iPhone 12 Mini */
-/* 375px - 812px */
-@media only screen and (device-width: 375px) and (device-height: 812px) {
+@media only screen and (min-width: 414px) and (max-width: 736px) {
     /*  */
     .Barbers-container {
         height: 170vh;
-        width: 554px;
     }
 
     /*  */
     .Barbers-row1 {
         display: block;
-        margin-left: 45px;
+        margin-left: -30px;
     }
 
     /*  */
     #Card {
-        margin-bottom: 50px;
+        
     }
 
-}
-
-
-
-/* iPhone 12 & iPhone 12 Pro */
-/* 390px - 844px */
-@media only screen and (device-width: 390px) and (device-height: 844px) {
-    /*  */
-    .Barbers-container {
-        height: 175vh;
-        width: 550.5px;
-    }
-
-    /*  */
-    .Barbers-row1 {
-        display: block;
-    }
-
-    /*  */
-    #Card {
-        margin-bottom: 70px;
-        margin-left: 110px;
-    }
-
-}
-
-
-
-/* iPhone 11 & iPhone 11 Pro Max */
-/* 414px - 896px */
-@media only screen and (device-width: 414px) and (device-height: 896px) {
-    /*  */
-    .Barbers-container {
-        height: 157vh;
-        width: 551px;
-    }
-
-    /*  */
-    .Barbers-row1 {
-        display: block;
-    }
-
-    /*  */
-    #Card {
-        margin-left: 110px;
-        margin-bottom: 40px;
-    }
-
-}
-
-
-
-/* iPhone 12 Pro Max */
-/* 428px - 926px */
-@media only screen and (min-width: 428px) and (max-width: 926px) {
-    /*  */
-    .Barbers-container {
-        height:155vh;
-        width: 551px;
-    }
-
-    /*  */
-    .Barbers-row1 {
-        display: block;
-    }
-
-    /*  */
-    #Card {
-        margin-bottom: 40px;
-        margin-left: 110px;
-    }
-
-}
-
-
-
-
-/* 1281px - 1920px */
-@media only screen and (min-width: 1281px) and (max-width: 1920px) {
-    /*  */
-    .Barbers-container {
-        height: 93vh;
-    }
-
-    /*  */
-    #Barbers-title {
-        font-size: 75px;
-    }
-
-    /*  */
-    #Barbers-row1 {
-        padding-top: 40px;
-    }
-
-    /*  */
-    #Card {
-        width: 400px;
-        margin-left: 175px;
-    }
-
-    /*  */
-    .Barbers-img {
-        height: 250px;
-    }
-
-    /*  */
-    #Card-body {
-        height: 13vh;
-        border-top: 3px solid black;
-    }
-
-    /*  */
-    #Card-title {
-        font-size: 35px;
-        text-align: center;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-
-    /*  */
-    .Card-btns {
-        padding-top: 11px;
-    }
-
-    /*  */
-    #Booksy-btn, #IG-btn {
-        font-size: 21px;
-    }
 }
