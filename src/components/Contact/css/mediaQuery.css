@@ -7,28 +7,32 @@
 
     /*  */
     #stay-sharp-map {
-        width: 390px;
-        margin-left: 10px;
+        width: 405px;
+        margin-left: 5px;
     }
 
     /*  */
     .Contact-info {
         display: block;
+        
     }
 
     /*  */
     .Contact-cell {
-
+        margin-left: 150px;
+        margin-bottom: 50px;
     }
 
     /*  */
     .Contact-address {
-        margin-left: 0px;
+        margin-left: 150px;
+        margin-bottom: 50px;
     }
 
     /*  */
     .Contact-hours {
-        margin-left: 0px;
+        margin-left: 150px;
+        width: 170px;
     }
 
 }
