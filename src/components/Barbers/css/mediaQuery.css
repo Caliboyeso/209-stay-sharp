@@ -2,17 +2,17 @@
 
 /* iPhone 8 Plus */
 /* 414px - 736px */
-@media only screen and (device-width: 375px) and (device-height: 667px) {
+@media only screen and (device-width: 414px) and (device-height: 736px) {
     /*  */
     .Barbers-container {
         height: 200vh;
-        width: 555px;
+        width: 414px;
     }
 
     /*  */
     #Barbers-row1 {
         display: block;
-        margin-left: 45px;
+        margin-left: -25px;
     }
 
     /*  */

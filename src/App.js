@@ -1,5 +1,6 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "./app.css";
 import Background from "./components/Background/background.jsx";
 import NavBar from "./components/Navbar/navbar.jsx";
 import Barbers from "./components/Barbers/barbers.jsx";
@@ -9,7 +10,7 @@ import Footer from "./components/Footer/footer.jsx";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" id="App">
       
       <Background />
       <NavBar />

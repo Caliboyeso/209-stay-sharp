@@ -2,17 +2,31 @@
 
 /* iPhone 8 Plus */
 /* 414px - 736px */
-@media only screen and (device-width: 375px) and (device-height: 667px) {
+@media only screen and (min-width: 414px) and (max-width: 736px) {
     /*  */
     #Gallery-container {
         height: 125vh;
-        width: 555px;
+        width: 414px;
     }
 
     /*  */
     #Carousel {
-        width: 530px;
-        margin-left: 10px;
+        display: none;
+    }
+
+    /*  */
+    #Carousel-item {
+        width: 400px;
+    }
+
+    /*  */
+    .carousel-control-prev {
+        display: none;
+    }
+
+    /*  */
+    .carousel-control-next {
+        display: none;
     }
 
 }

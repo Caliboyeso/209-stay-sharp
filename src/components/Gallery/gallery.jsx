@@ -1,6 +1,7 @@
 import React from "react";
 import "./css/gallery.css";
 import "./css/mediaQuery.css";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Carousel from "react-bootstrap/Carousel";
 import Haircut1 from "../img/haircut1.png";
 import Haircut2 from "../img/haircut2.png";
@@ -19,9 +20,9 @@ function Gallery() {
       <style>@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');</style>
       <h1 id="Gallery-title">Gallery</h1>
 
-      <Carousel fade id="Carousel" className="Carousel">
+      <Carousel fade infiniteLoop autoPlay showArrows="false" id="Carousel" className="Carousel">
         {/* Haircut #1 */}
-        <Carousel.Item>
+        <Carousel.Item id="Carousel-item">
           <img
             id="Gallery-img"
             className="d-block w-100"
@@ -31,7 +32,7 @@ function Gallery() {
         </Carousel.Item>
 
         {/* Haircut #2 */}
-        <Carousel.Item>
+        <Carousel.Item id="Carousel-item">
           <img
             id="Gallery-img"
             className="d-block w-100"
@@ -41,7 +42,7 @@ function Gallery() {
         </Carousel.Item>
 
         {/* Haircut #3 */}
-        <Carousel.Item>
+        <Carousel.Item id="Carousel-item">
           <img
             id="Gallery-img"
             className="d-block w-100"
@@ -51,7 +52,7 @@ function Gallery() {
         </Carousel.Item>
 
         {/* Haircut #4 */}
-        <Carousel.Item>
+        <Carousel.Item id="Carousel-item">
           <img
             id="Gallery-img"
             className="d-block w-100"
@@ -61,7 +62,7 @@ function Gallery() {
         </Carousel.Item>
 
         {/* Haircut #5 */}
-        <Carousel.Item>
+        <Carousel.Item id="Carousel-item">
           <img
             id="Gallery-img"
             className="d-block w-100"
@@ -71,7 +72,7 @@ function Gallery() {
         </Carousel.Item>
 
         {/* Haircut #6 */}
-        <Carousel.Item>
+        <Carousel.Item id="Carousel-item">
           <img
             id="Gallery-img"
             className="d-block w-100"
@@ -81,7 +82,7 @@ function Gallery() {
         </Carousel.Item>
 
         {/* Haircut #7 */}
-        <Carousel.Item>
+        <Carousel.Item id="Carousel-item">
           <img
             id="Gallery-img"
             className="d-block w-100"
@@ -91,7 +92,7 @@ function Gallery() {
         </Carousel.Item>
 
         {/* Haircut #8 */}
-        <Carousel.Item>
+        <Carousel.Item id="Carousel-item">
           <img
             id="Gallery-img"
             className="d-block w-100"
@@ -101,7 +102,7 @@ function Gallery() {
         </Carousel.Item>
 
         {/* Haircut #9 */}
-        <Carousel.Item>
+        <Carousel.Item id="Carousel-item">
           <img
             id="Gallery-img"
             className="d-block w-100"
