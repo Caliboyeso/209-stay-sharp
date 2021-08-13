@@ -25,7 +25,7 @@ function NavBar() {
 // 
 const NavGallery = () => {
   if (window.matchMedia("(min-width: 1920px)").matches) {
-      window.scrollTo({top: 1885, behavior: "smooth"});
+      window.scrollTo({top: 1875, behavior: "smooth"});
   } else if (window.matchMedia("(min-width: 1280px)").matches) {
       window.scrollTo({top: 1315, behavior: "smooth"});
   } else {
@@ -36,7 +36,7 @@ const NavGallery = () => {
 // 
 const NavContact = () => {
   if (window.matchMedia("(min-width: 1920px)").matches) {
-      window.scrollTo({top: 3540, behavior: "smooth"});
+      window.scrollTo({top: 2800, behavior: "smooth"});
   } else if (window.matchMedia("(min-width: 1280px)").matches) {
       window.scrollTo({top: 1975, behavior: "smooth"});
   } else {

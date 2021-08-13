@@ -73,3 +73,24 @@
     }
 
 }
+
+
+/* Large Desktop */
+@media only screen and (min-width: 1281px) and (max-width: 1920px) {
+    /*  */
+    .Barbers-container {
+        height: 92vh;
+    }
+
+    /*  */
+    .Barbers-row1 {
+        margin-left: 250px;
+        margin-top: 30px;
+    }
+
+    /*  */
+    #Card {
+        margin-right: 75px;
+    }
+
+}

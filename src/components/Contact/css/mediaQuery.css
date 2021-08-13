@@ -105,3 +105,34 @@
     }
 
 }
+
+
+/* Large Desktop */
+@media only screen and (min-width: 1281px) and (max-width: 1920px) {
+    /*  */
+    #stay-sharp-map {
+        width: 1650px;
+        height: 740px;
+    }
+
+    /*  */
+    .Contact-info {
+        
+    }
+
+    /*  */
+    .Contact-cell {
+        margin-left: 300px;
+    }
+
+    /*  */
+    .Contact-address {
+        margin-left: 425px;
+    }
+
+    /*  */
+    .Contact-hours {
+        margin-left: 400px;
+    }
+
+}
