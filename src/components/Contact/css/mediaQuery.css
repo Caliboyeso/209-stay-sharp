@@ -1,5 +1,5 @@
 /* iPhone 8 Plus */
-@media only screen and (min-width: 414px) and (max-width: 736px) {
+@media only screen and (min-width: 414px) and (max-width: 736px) and (-webkit-device-pixel-ratio : 3) {
     /*  */
     .Contact-container {
         height: 180vh;
@@ -14,6 +14,21 @@
     /*  */
     .Contact-info {
         display: block;
+    }
+
+    /*  */
+    .Contact-cell {
+
+    }
+
+    /*  */
+    .Contact-address {
+        margin-left: 0px;
+    }
+
+    /*  */
+    .Contact-hours {
+        margin-left: 0px;
     }
 
 }
