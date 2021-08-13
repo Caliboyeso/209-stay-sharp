@@ -10,8 +10,14 @@ function Background() {
             window.scrollTo({top: 990, behavior: "smooth"});
         } else if (window.matchMedia("(min-width: 1280px)").matches) {
             window.scrollTo({top: 696, behavior: "smooth"});
+        } else if (window.matchMedia("(min-width: 428px)").matches) {
+            window.scrollTo({top: 938, behavior: "smooth"});
         } else if (window.matchMedia("(min-width: 414px)").matches) {
-            window.scrollTo({top: 985, behavior: "smooth"});
+            window.scrollTo({top: 907, behavior: "smooth"});
+        } else if (window.matchMedia("(min-width: 390px)").matches) {
+            window.scrollTo({top: 852, behavior: "smooth"});
+        } else if (window.matchMedia("(min-width: 375px)").matches) {
+            window.scrollTo({top: 820, behavior: "smooth"});
         } else {
             window.scrollTo({top: 960, behavior: "smooth"});
         }

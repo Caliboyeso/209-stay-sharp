@@ -6,3 +6,29 @@
     }
 
 }
+
+
+/* iPhone 11 Pro & iPhone 12 Mini */
+@media only screen and (min-width: 375px) and (max-width: 812px) {
+    /*  */
+    #Navbar {
+        display: none;
+    }
+
+}
+
+
+/* iPhone 11 & iPhone 11 Pro Max */
+@media only screen and (min-width: 390px) and (max-width: 844px) {
+    /*  */
+    
+
+}
+
+
+/* iPhone 12 Pro Max */
+@media only screen and (min-width: 428px) and (max-width: 926px) {
+    /*  */
+    
+
+}
