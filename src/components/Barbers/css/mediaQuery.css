@@ -2,18 +2,28 @@
 @media only screen and (min-width: 414px) and (max-width: 736px) {
     /*  */
     #Barbers-container {
-        height: 195vh;
+        height: 240vh;
     }
 
     /*  */
-    .Barbers-row1 {
+    .Barbers-row1, .Barbers-row2 {
         display: block;
-        margin-left: -30px;
     }
 
     /*  */
     #Card {
         margin-bottom: 50px;
+        margin-right: 50px;
+    }
+
+    /*  */
+    #Card1, #Card2 {
+        margin-left: -167px;
+    }
+
+    /*  */
+    #Card3, #Card4 {
+        margin-left: -145px;
     }
 
 }
@@ -23,18 +33,24 @@
 @media only screen and (min-width: 375px) and (max-width: 812px) {
     /*  */
     .Barbers-container {
-        height: 180vh;
+        height: 220vh;
     }
 
     /*  */
-    .Barbers-row1 {
+    .Barbers-row1, .Barbers-row2 {
         display: block;
-        margin-left: -45px;
     }
 
     /*  */
     #Card {
         margin-bottom: 50px;
+        margin-left: 60px;
+        width: 355px;
+    }
+
+    /*  */
+    #IG-btn {
+        margin-left: 50px;
     }
 
 }
@@ -48,7 +64,7 @@
     }
 
     /*  */
-    .Barbers-row1 {
+    .Barbers-row1, .Barbers-row2 {
         margin-left: -40px;
     }
 
@@ -58,8 +74,13 @@
 /* iPhone 11 & iPhone 11 Pro Max */
 @media only screen and (min-width: 414px) and (max-width: 896px) {
     /*  */
-    .Barbers-row1 {
-        margin-left: -26px;
+    .Barbers-row1, .Barbers-row2 {
+        margin-left: 137px;
+    }
+
+    /*  */
+    #Card3, #Card4 {
+        margin-left: -165px;
     }
 
 }
@@ -69,7 +90,7 @@
 @media only screen and (min-width: 428px) and (max-width: 926px) {
     /*  */
     .Barbers-row1 {
-        margin-left: -20px;
+        margin-left: 140px;
     }
 
 }

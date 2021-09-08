@@ -48,7 +48,10 @@ function Barbers() {
           </Card.Body>
         </Card>
         </div>
+      </div>
 
+      {/* Barber Cards Row #2 */}
+      <div id="Barbers-row2" className="Barbers-row2">
         <div id="Card3">
         {/* Card #3: Israel */}
         <Card id="Card" className="Card">
@@ -60,8 +63,26 @@ function Barbers() {
           <Card.Body id="Card-body">
             <Card.Title id="Card-title">Israel</Card.Title>
             <div className="Card-btns">
-                <Button id="Booksy-btn" target="_blank" href="https://booksy.com/en-us/511111_israel-l_barber-shop_134738_manteca#ba_s=sr_1" variant="warning">Book Appointment</Button>
+                <Button id="Booksy-btn" target="_blank" href="https://booksy.com/en-us/511111_israel-l_barber-shop_134738_manteca" variant="warning">Book Appointment</Button>
                 <Button id="IG-btn" target="_blank" href="https://www.instagram.com/eskeletoblendz/" variant="success">Instagram</Button>
+            </div>
+          </Card.Body>
+        </Card>
+        </div>
+
+        <div id="Card4">
+        {/* Card #4: Paris */}
+        <Card id="Card" className="Card">
+          <Card.Img
+            className="Barbers-img"
+            variant="top"
+            src={StaySharp}
+          />
+          <Card.Body id="Card-body">
+            <Card.Title id="Card-title">Paris</Card.Title>
+            <div className="Card-btns">
+                <Button id="Booksy-btn" target="_blank" href="https://app.thecut.co/barbers/pariscarta" variant="warning">Book Appointment</Button>
+                <Button id="IG-btn" target="_blank" href="https://www.instagram.com/209staysharpbarbershop/" variant="success">Instagram</Button>
             </div>
           </Card.Body>
         </Card>

@@ -27,7 +27,7 @@ const NavGallery = () => {
   if (window.matchMedia("(min-width: 1920px)").matches) {
       window.scrollTo({top: 1875, behavior: "smooth"});
   } else if (window.matchMedia("(min-width: 1280px)").matches) {
-      window.scrollTo({top: 1315, behavior: "smooth"});
+      window.scrollTo({top: 1654, behavior: "smooth"});
   } else {
       window.scrollTo({top: 696, behavior: "smooth"});
   }
@@ -38,7 +38,7 @@ const NavContact = () => {
   if (window.matchMedia("(min-width: 1920px)").matches) {
       window.scrollTo({top: 2760, behavior: "smooth"});
   } else if (window.matchMedia("(min-width: 1280px)").matches) {
-      window.scrollTo({top: 1975, behavior: "smooth"});
+      window.scrollTo({top: 2315, behavior: "smooth"});
   } else {
       window.scrollTo({top: 695, behavior: "smooth"});
   }

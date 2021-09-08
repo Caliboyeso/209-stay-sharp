@@ -1,6 +1,6 @@
 /* .Barbers-container */
 .Barbers-container {
-    height: 91vh;
+    height: 140vh;
     background: radial-gradient(ellipse at bottom, #1B2735 0%, #263937 100%);
     border-bottom: 15px solid black;
 }
@@ -17,17 +17,18 @@
 }
 
 /*  */
-.Barbers-row1 {
+.Barbers-row1, .Barbers-row2 {
     display: inline-flex;
+    margin-left: -50px;
 }
 
 /*  */
 .Card {
-    margin-left: 65px;
+    margin-left: 200px;
 }
 
 #Card {
-    width: 340px;
+    width: 400px;
     height: 335px;
     background-color: silver;
 }
@@ -46,10 +47,24 @@
 }
 
 /*  */
+#Card3, #Card4 {
+    margin-top: 50px;
+}
+
+/*  */
 .Card-btns {
     display: inline-flex;
 }
 
+/*  */
+#Booksy-btn {
+    font-size: 15px;
+    width: 155px;
+}
+
+/*  */
 #IG-btn {
-    margin-left: 45px;
+    margin-left: 90px;
+    width: 120px;
+    height: 40px;
 }
